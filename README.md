@@ -1,3 +1,5 @@
+# Solution
+
 # ACM Research coding challenge (Spring 2023)
 
 ![image](https://user-images.githubusercontent.com/72369124/211179527-0ee60624-2794-4e13-bf7f-f88b5c950e44.png)
