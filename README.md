@@ -1,4 +1,15 @@
 # Solution
+## Introduction
+The main goal of this mini project is to familiarize myself with basic data science tools and concepts. Because the star-dataset stores star properties that are closely related for depicting the Hertzsprung-Russell Diagram, this mini project focuses less on exploratory data analysis (since the relationship between these properties are already well-described) and more on data visualization and machine learning models.
+
+## Problem
+The main problem is "How do we process enough data quickly?" The main reason behind this question lies behind the nature of astronomical datasets which can be astronomically huge, spanning many terabytes of data and more. Creating fast and accurate star classification models would help in matching the speed of data being taken in and could be applied in other ways such as identifying cosmic bodies or transient events (discussed in time-domain astronomy). Additionally, this question can be expanded into asking "What kinds of data can be used?" Could stars be classified based on an image, or does there need to be additional star property data to accurately classify stars?
+
+## Process
+1. Perform exploratory data analysis (and create a data visualization in the form of the HR-Diagram) to find the correlation between the various star properties. Using the seaborn and matplotlib libraries, I was able to create a scatterplot for Temperature vs Luminosity and display the graph in such a way that made seeing the relationships between properties easier to see.
+![HRDiagram](https://user-images.githubusercontent.com/94246004/215945983-37cb35da-5e68-420f-87df-9498a47f75b5.png)
+2. Train a ML model to classify stars, using a larger dataset to test and improve the accuracy of the model. See if the most significant weights/properties can be found. 
+3. Put Temoc's characteristics through the ML model?
 
 # ACM Research coding challenge (Spring 2023)
 
